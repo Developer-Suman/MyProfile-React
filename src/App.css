@@ -1,0 +1,197 @@
+
+@media (max-width:500px) {
+  .Headers{
+    width: 100px;
+    color:'red'
+  }
+  .headerMenu{
+    display: none;
+  }
+  
+  
+}
+
+@media (min-width:500px) {
+  .menuIcon{
+    display: none;
+  }
+  
+  
+}
+
+
+.Headers{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  color:#fff;
+  text-decoration: none;
+  background-color: #000 !important;
+}
+.maps{
+  width: 100%;
+  margin-top: 110px;
+  display:flex;
+  justify-content: center;
+}
+.Headers :hover{
+  color:#fff;
+  text-decoration: none;
+  
+}
+.about-topic{
+  text-decoration: underline;
+  font-size: 25px;
+  margin-top: 90px;
+  z-index: 1;
+}
+
+.slider-image{
+  width: 100%;
+  margin-top: 70px;
+
+}
+.cvbtn{
+  display: flex;
+  justify-content: center;
+  margin:40px;
+
+}
+.about-details{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details{
+  font-weight:bold;
+  font-size: 20px;
+  margin-top: 80px;
+  
+}
+.about-parent{
+  height:320px;
+  border-radius: 10px;
+  border: 2px solid #000;
+  position: relative;
+  top:65px;
+  left: 80px;
+  width: 70%;
+}
+.about-child{
+  height:320px;
+  position: absolute;
+  background-color: blue;
+  left: 10px;
+  border-radius: 10px;
+  bottom: 10px;
+  width: 100%;
+}
+.about{
+  height:auto;
+  background-color: #FE5000;
+  margin:10px;
+ 
+}
+
+.project-parent{
+  height:400px;
+  border: 2px solid #000;
+  border-radius: 20px;
+  position: relative;
+}
+
+.btnclass{
+  bottom: 50px;
+  font-size: 15px;
+}
+.p-button{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  height:400px;
+  width: 100%;
+  background-color: red;
+  border-radius: 20px;
+  position: absolute;
+  left:10px;
+  bottom:10px;
+
+  
+}
+.project-description{
+  font-size: 17px;
+  margin:10px;
+  margin-bottom:40px;
+  color:#000;
+
+}
+.skills{
+  height:400px;
+  background-color: #000;
+  margin-bottom: 35px;
+  border-radius: 10px;
+}
+.experience{
+  height:400px;
+  background-color:#FE5000;
+  margin-bottom: 35px;
+  border-radius: 10px;
+
+}
+
+.ability-heading{
+  color:#fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 80px;
+}
+.ability-topic{
+  text-align: center;
+  font-size: 20px;
+  margin:0;
+  text-decoration: underline;
+}
+
+.abilities{
+  margin-bottom: 10px ;
+  margin-top: 90px;
+}
+
+.footers{
+  height: auto;
+  margin-top: 40px;
+  background-color: #000;
+  /* display: flex;
+  justify-content: center; */
+  
+}
+.title-contact{
+  color: #fff;
+  font-size: 20px;
+  padding:0px;
+  font-weight:bold;
+}
+.description-contact{
+  color:#fff;
+  font-size: 17px;
+}
+.icons-contact{
+  color:#fff;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.contact-headings{
+  color:#fff;
+}
+.contact-button{
+  background-color:#000;
+  color:#fff;
+  font-size: 12px;
+  margin-bottom:40px;
+  border:2px solid orange;
+}
+
+:where(.css-dev-only-do-not-override-1jyprxx).ant-image {
+  display: block;
+}

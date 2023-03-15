@@ -1,0 +1,1 @@
+sm={{span:22}} lg={{span:22}} xl={{span:22}} xs={{span:22}}
